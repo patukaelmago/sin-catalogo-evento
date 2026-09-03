@@ -112,8 +112,10 @@ footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2re
   .nav { padding: 0 5vw; }
   .brand { font-size: 0.95rem; }
   .nav-link { font-size: 0.68rem; }
-  .hero { min-height: auto; }
+  .hero { min-height: auto; padding: 2.5rem 5vw 4rem; gap: 2rem; }
+  .hero-art { width: min(280px, 76vw); }
   .hero-copy { text-align: center; }
+  h1 { max-width: 100%; font-size: clamp(3rem, 15vw, 4rem); line-height: 0.84; letter-spacing: -0.06em; }
   .intro { font-size: 0.95rem; }
   .event-data { text-align: left; }
   .event-data strong { font-size: 1rem; }
