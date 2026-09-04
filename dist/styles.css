@@ -73,6 +73,10 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .experience-grid h3 { margin: 2rem 0 0.75rem; font-size: 2rem; }
 .experience-grid p { line-height: 1.65; opacity: 0.8; }
 
+.origin-section { padding: 9vw 8vw; background: var(--paper); text-align: center; }
+.origin-section h2 { max-width: 900px; margin-inline: auto; }
+.origin-section p:not(.eyebrow) { max-width: 660px; margin: 2rem auto 0; line-height: 1.8; }
+
 .sponsors { padding: 9vw 8vw; }
 .section-intro { max-width: 580px; line-height: 1.8; }
 .sponsor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 3rem; }
@@ -94,7 +98,7 @@ footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2re
   .hero-art { grid-row: 1; width: min(360px, 90vw); margin: 0 auto; }
   h1 { font-size: clamp(4rem, 18vw, 6.3rem); }
   .event-data { gap: 1rem; justify-content: space-between; }
-  .experience, .sponsors { padding: 5rem 6vw; }
+  .experience, .origin-section, .sponsors { padding: 5rem 6vw; }
   .experience-grid { grid-template-columns: 1fr 1fr; margin-top: 3rem; }
   .experience-grid article:nth-child(2) { border-right: 0; }
   .experience-grid article:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,0.25); }
