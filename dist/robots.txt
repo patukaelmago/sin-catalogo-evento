@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sin-catalogo.github.io/evento/sitemap.xml
