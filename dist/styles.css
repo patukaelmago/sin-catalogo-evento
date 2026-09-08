@@ -90,6 +90,7 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 
 .location { padding: 8vw; background: #ddd1b8; text-align: center; }
 .location p:not(.eyebrow) { margin: 1.4rem 0 2rem; }
+.location .limited-spots { margin: 0 auto 2rem; }
 .button-outline { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
 footer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 2rem 6vw; background: var(--ink); color: var(--paper); }
 footer div { display: flex; gap: 0.6rem; letter-spacing: 0.15em; }
