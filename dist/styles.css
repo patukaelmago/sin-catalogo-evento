@@ -60,8 +60,8 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
 .button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0 1.6rem; background: var(--olive-dark); color: var(--paper); text-decoration: none; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .hero-art { position: relative; display: grid; place-items: center; }
-.hero-art::before { content: ""; position: absolute; width: 82%; aspect-ratio: 1; border: 1px solid var(--gold); border-radius: 50%; }
-.hero-art img { position: relative; width: min(520px, 90%); border-radius: 50%; mix-blend-mode: multiply; clip-path: circle(48%); }
+.hero-art::before { content: ""; position: absolute; top: 50%; left: 50%; width: 82%; aspect-ratio: 1; box-sizing: border-box; border: 1px solid var(--gold); border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; }
+.hero-art img { position: relative; display: block; width: min(520px, 90%); aspect-ratio: 1; object-fit: cover; border-radius: 50%; mix-blend-mode: multiply; clip-path: circle(48% at 50% 50%); }
 
 .experience { padding: 9vw 8vw; background: var(--olive-dark); color: var(--paper); }
 .experience .eyebrow { color: #d2ba7a; }
