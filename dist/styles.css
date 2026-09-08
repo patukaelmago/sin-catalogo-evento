@@ -54,10 +54,11 @@ h1 { margin: 0; font-size: clamp(4.4rem, 9vw, 8.5rem); line-height: 0.76; letter
 .subtitle { margin: 1.8rem 0 1rem; font-family: "Cormorant Garamond", serif; font-size: clamp(1.5rem, 2.6vw, 2.3rem); font-style: italic; }
 .intro { max-width: 640px; line-height: 1.8; }
 .limited-spots { display: inline-block; margin: 0.5rem 0 0; padding: 0.75rem 1rem; border: 1px solid rgba(163,123,47,0.45); color: var(--olive-dark); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.045em; text-transform: uppercase; }
-.event-data { display: flex; gap: 2.8rem; margin: 2.2rem 0; padding: 1.5rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.event-data { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.8rem; margin: 2.2rem 0; padding: 1.5rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .event-data div { display: grid; gap: 0.35rem; }
 .event-data small { color: var(--olive); font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; }
 .event-data strong { font-family: "Cormorant Garamond", serif; font-size: 1.25rem; }
+.event-address { display: block; margin-top: 0.25rem; font-family: "Montserrat", sans-serif; font-size: 0.68rem; font-weight: 500; line-height: 1.35; }
 .button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0 1.6rem; background: var(--olive-dark); color: var(--paper); text-decoration: none; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .hero-art { position: relative; display: grid; place-items: center; }
@@ -94,6 +95,7 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 
 .location { padding: 8vw; background: #ddd1b8; text-align: center; }
 .location p:not(.eyebrow) { margin: 1.4rem 0 2rem; }
+.location .location-details { display: grid; gap: 1rem; }
 .location .limited-spots { margin: 0 auto 2rem; }
 .location .button-outline { display: flex; width: max-content; margin: 0 auto; }
 .button-outline { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
@@ -105,7 +107,7 @@ footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2re
   .hero { grid-template-columns: 1fr; padding: 4rem 6vw 5rem; }
   .hero-art { grid-row: 1; width: min(360px, 90vw); margin: 0 auto; }
   h1 { font-size: clamp(4rem, 18vw, 6.3rem); }
-  .event-data { gap: 1rem; justify-content: space-between; }
+  .event-data { gap: 1rem; }
   .experience, .origin-section, .sponsors { padding: 5rem 6vw; }
   .experience-grid { grid-template-columns: 1fr 1fr; margin-top: 3rem; }
   .experience-grid article:nth-child(2) { border-right: 0; }
