@@ -101,7 +101,10 @@ h2 em { color: #d2ba7a; font-weight: 400; }
 .location .button-outline { display: flex; width: max-content; margin: 0 auto; }
 .button-outline { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
 footer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 2rem 6vw; background: var(--ink); color: var(--paper); }
-footer div { display: flex; gap: 0.6rem; letter-spacing: 0.15em; }
+.footer-brand { display: flex; gap: 0.6rem; align-items: center; color: inherit; letter-spacing: 0.15em; text-decoration: none; }
+.footer-instagram { color: #d2ba7a; font-size: 0.76rem; font-weight: 600; letter-spacing: 0.12em; text-decoration: none; text-transform: uppercase; }
+.footer-brand:hover,
+.footer-instagram:hover { color: #d2ba7a; }
 footer p { margin: 0; font-family: "Cormorant Garamond", serif; font-size: 1.2rem; font-style: italic; }
 
 @media (max-width: 850px) {
